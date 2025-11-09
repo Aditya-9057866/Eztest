@@ -4,7 +4,8 @@ import Group2 from "../assets/Group 2.svg"
 import img20 from "../assets/136881584_562ce9a4-ee1d-4be1-8b12-5b603ee14c6b 1 (1).svg"
 import Vector from"../assets/Vector.svg"
 import Frame2 from"../assets/Frame 2.png"
-import Vector1 from"../assets/Vector (1).svg"
+import Vector1 from "../assets/Vector (1).svg"
+import { Link } from "react-router-dom";
 const TheirStories = () => {
   return (
     <>
@@ -57,7 +58,9 @@ textAlign: 'center'
             }} className=' mt-12 w-[586px] h-[60px] -ml-12 '>Take a closer look at the stories V bring to life.</p>
           </div>
           <div>
-            <img className=' ml-40' src={Frame2} alt="" />
+           <Link to="/varman">
+      <img className="ml-40 cursor-pointer" src={Frame2} alt="Go to next page" />
+    </Link>
           </div>
         </div>
    </div>

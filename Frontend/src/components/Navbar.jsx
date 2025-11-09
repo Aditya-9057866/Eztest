@@ -22,7 +22,7 @@ const Navbar = () => {
 
       {/* Navigation Items */}
       <ul className={`flex justify-end pr-16 space-x-5 py-4 transition-all duration-300 ${isOpen ? 'opacity-100' : 'opacity-0'}`}>
-        <li><Link to="/" className="hover:text-gray-600">Hero</Link></li>
+        <li><Link to="/" className="hover:text-gray-600">Home</Link></li>
 
         <li><Link to="/services" className="hover:text-gray-600">Services</Link></li>
         <li><Link to="/their-stories" className="hover:text-gray-600">Their Stories</Link></li>
