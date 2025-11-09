@@ -1,19 +1,29 @@
 import React from 'react'
-import whatsapp_Image from '../assets/WhatsApp_Image_2025-11-07_at_04.23.30_920af7a2-removebg-preview.png'
+import hero_Mandal from '../assets/Hero Mandala.png'
 
+import Vfilms from '../assets/WhatsApp_Image_2025-11-07_at_04.51.29_18511189-removebg-preview.png'
 const Hero = () => {
   return (
     <>
       <div className=' flex gap-44'>
 
-        <div className="relative inline-block m-36">
-      
-        <img 
-          src={whatsapp_Image} 
-          alt="WhatsApp Overlay" 
-          className="w-[400px] h-[400px] relative z-10"
-        />
-        </div>
+<div className="relative inline-block m-36">
+  {/* Base image */}
+  <img
+    src={hero_Mandal}
+    alt="Hero Mandal"
+    className="w-[400px] h-[400px] object-contain"
+  />
+
+  {/* Overlay image (centered on top) */}
+  <img
+    src={Vfilms}
+    alt="V Films"
+    className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2
+               w-[250px] h-[200px] object-contain z-20 pointer-events-none"
+  />
+</div>
+
 
         <div className=" items-start w-[477px] h-[400px]   mt-30">
           <p style={{
