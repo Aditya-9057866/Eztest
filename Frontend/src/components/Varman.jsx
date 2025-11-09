@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import reelbg from '../assets/Subtract.png'
 import leftbtn from '../assets/leftRectangleBtn.png'
-import rightbtn from '../assets/rightRectangleBtn.png'
+import rightbtn from '../assets/rightRectanglebtn.png'
 import camera from '../assets/CamGroup.svg'
 import rightBottomFooter from "../assets/rightBottomFooter.png"
 
